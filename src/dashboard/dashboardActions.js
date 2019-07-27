@@ -1,5 +1,5 @@
 import axios from 'axios'
-const BASE_URL = 'http://web.unifsa.com.br:3030/api'
+const BASE_URL = 'https://web.unifsa.com.br/billingcycles/api'
 
 export function getSummary() {
     const request = axios.get(`${BASE_URL}/billingCycles/summary`)
