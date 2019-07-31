@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name: "todo-backend",
-    script: "./src/loader.js",
+    script: "./src/index.jss",
     env: {
       NODE_ENV: "development",
     },
